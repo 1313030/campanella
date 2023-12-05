@@ -632,7 +632,8 @@ footer {
 
 /* ================================================= */
 
-@media (width <=800px) {
+/* @media (width <=800px) { */
+    @media (max-width:800px){
     .snscontainer {
         flex-direction: column;
         align-items: center;

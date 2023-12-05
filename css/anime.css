@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(20px);
+    }
+}
+
+.foodImg p:nth-child(2) {
+    animation: bounce 1.5s infinite alternate ease-in-out;
+    animation-delay: 1s;
+}
+
+.foodImg p:nth-child(3) {
+    animation: bounce 1.0s infinite alternate ease-in-out;
+    animation-delay: 1s;
+}
+
+
+.batman01 {
+    animation: bounce 0.5s infinite alternate ease-in-out;
+    animation-delay: 1s;
+
+}
+
+.batman02 {
+    animation: bounce 0.5s infinite alternate ease-in-out;
+    animation-delay: 1s;
+
+}
+
+
+@keyframes move {
+    from {
+        transform: translateZ(0);
+    }
+
+    to {
+        transform: translateZ(20px);
+    }
+}
+
+#box01, #box02, #box03, #box04, #box05{
+    transition: transform 1s;
+    transform-origin: center center -25px;
+}
+
+#box01:hover {
+    transform: rotateY(-180deg);
+}
+#box02:hover {
+    transform: rotateY(-180deg);
+}
+#box03:hover {
+    transform: rotateY(-180deg);
+}
+#box04:hover {
+    transform: rotateY(-180deg);
+}
+#box05:hover {
+    transform: rotateY(-180deg);
+}
+
+
+
+
+
+/* // ::::::::::::::::::::::::::::::::::ローディングアニメーション::::::::::::::::::::::::::::::::::::::: */

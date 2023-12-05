@@ -1,0 +1,698 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "myFont";
+    src: url(../Kaisei_Tokumin/KaiseiTokumin-Regular.ttf);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    max-width: 1920px;
+   color: #F5EBCF; 
+    font-family: "myFont";
+    overflow-x: hidden;
+
+}
+
+
+/* ::::::::::::::::::::::::::::::::::::::sec01:::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+.sec01 {
+    /* background-image: url(../img/sec01/background01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -100; */
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mainVisual {
+    margin: 6rem 0 2rem 0;
+}
+
+.mainVisual img{
+    object-fit: contain;
+    max-width: 90%;
+}
+
+
+header{
+    width: 100%;  
+background-color:  #08212f; 
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+header nav ul li  a{
+    color: #F5EBCF;
+}
+
+.infoBox {
+    margin: 8rem 0 10rem 0;
+    /* position: relative; */
+}
+
+.infoBox p {
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #F5EBCF; 
+} 
+
+
+.soap p {
+    position: relative;
+    mix-blend-mode: exclusion;
+}
+
+.soap p:nth-child(1) {
+    position: absolute;
+    top: -10%;
+    left: 0%;
+}
+
+.soap p:nth-child(2) {
+    position: absolute;
+    top: 17%;
+    left: -2%;
+}
+
+.soap p:nth-child(3) {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+
+.soap p:nth-child(4) {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+}
+
+.soap p:nth-child(5) {
+    position: absolute;
+    top: -10%;
+    left: 75%;
+}
+
+.water{
+    max-width: 1000px;
+    mix-blend-mode: darken;
+}
+
+
+
+
+.shopNewsBox {
+    margin: 2rem 0 4rem auto;
+  
+}
+
+
+.shopNewsContent p{
+    color: #F5EBCF; 
+}
+
+.shopNewsContent p img {
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    border: solid 1px #F5EBCF;
+}
+
+.shopNewsContent p:nth-child(2) {
+    font-size: 0.8rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.sec01 h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #F5EBCF; 
+}
+
+
+/* ::::::::::::::::::::::::::::::::::::::sec02:::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+.title {
+    text-align: center;
+}
+
+.title img {
+    max-width: 300px;
+
+}
+
+.sec02 {
+    /* background-image: url(../img/sec02/bradley-dunn-rtOD6PdRAlU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+
+}
+
+.paper {
+    max-width: 400px;
+
+}
+
+.noteBox {
+    margin: 0 auto;
+    max-width: 400px;
+    position: relative;
+}
+
+.noteBox .photo img {
+    max-width: 250px;
+    height: 150px;
+    object-fit: cover;
+    position: absolute;
+    top: 10%;
+    left: 19%;
+
+}
+
+.noteBox p {
+    color: black;
+    width: 100%;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    text-align: center; 
+    font-size: 0.8rem;
+    transform: translateX(-50%);
+}
+
+.bg{
+    height: 280vh;
+}
+
+.notecontent {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#box01 {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: rotate(10deg);
+}
+
+#box02 {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: rotate(-10deg);
+}
+
+#box03 {
+    position: absolute;
+    top: 125%;
+    left: 20%;
+    transform: rotate(15deg);
+}
+
+#box04 {
+    width: 400px;
+    position: absolute;
+    top: 165%;
+    left: 50%;
+    transform: rotate(-10deg);
+}
+
+#box05 {
+    position: absolute;
+    top: 210%;
+    left: 20%;
+    transform: rotate(10deg);
+}
+
+#box06 {
+    opacity: 0.7;
+    width: 400px;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    transform: rotate(-20deg);
+}
+
+#box07 {
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    left: -14%;
+    transform: rotate(20deg);
+}
+
+#box08 {
+    opacity: 0.7;
+    width: 400px;
+    position: absolute;
+    top: 105%;
+    left: 80%;
+    transform: rotate(-5deg);
+}
+
+#box09 {
+    opacity: 0.8;
+    position: absolute;
+    top: 165%;
+    left: -17%;
+    transform: rotate(-5deg);
+}
+
+#box010 {
+    opacity: 0.7;
+    width: 400px;
+    position: absolute;
+    top: 210%;
+    left: 80%;
+    transform: rotate(15deg);
+}
+
+.batman01{
+    position: absolute;
+    width: 300px;
+    top: 10%;
+    left: 55%;
+}
+
+.batman02{
+    position: absolute;
+    width: 300px;
+    top: 180%;
+    left: 30%;
+}
+
+
+
+/* ::::::::::::::::::::::::::::::::::sec03::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+
+.sec03 {
+    /* background-image: url(../img/sec03/ussama-azam-rUmEpk33_pM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    z-index: -100; */
+}
+
+.recommendBox {
+    text-align: center;
+}
+
+.recommendBox h1{
+    background-color: #F5EBCF;
+    color: #020E34;
+    margin-bottom: 2rem;
+}
+
+#recommend img {
+    max-width: 300px;
+    margin-top: 3rem;
+}
+
+.sec03 h1 {
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+
+.sec02 h2 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.recommendContent {
+    display: flex;
+    justify-content: center;
+}
+
+.recommendContent01 {
+    flex-direction: column;
+    align-items: end;
+    align-self: center;
+
+}
+
+.foodImg {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+
+}
+
+.foodImg p:nth-child(1) {
+    max-width: 300px;
+}
+
+.foodImg p:nth-child(2) {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.foodImg p:nth-child(3) {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.christmas {
+    margin: 5rem 1rem;
+    text-align: center;
+}
+
+.christmas img {
+  
+    max-width: 500px;
+}
+
+
+
+
+/* :::::::::::::::::::::::::::::::::::::sec03grid:::::::::::::::::::::::::::::::::::: */
+
+
+.menutitle h1 {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.menuContent h2 {
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.menuContent p {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.menuContent {
+    width: 60%;
+    z-index: 100;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 20vw 20vw 20vw 20vw 20vw 20vw;
+    grid-template-columns: 10% 40% 40% 10%;
+}
+
+
+
+
+.deco {
+    grid-column: 1 / 5;
+    grid-row: 1 / 7;
+    margin-top: 10%;
+}
+
+
+.deco img {
+    max-width: 1000px;
+    aspect-ratio: 1 / 2;
+}
+
+.item01 {
+    /* height: ; */
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.item01 img {
+    width: 70%;
+    aspect-ratio: 1 / 1;
+}
+
+.item02 {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+}
+
+.item03 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.item03 img {
+    width: 70%;
+    aspect-ratio: 1 / 1;
+}
+
+.item04 {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+.item05 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.item05 img {
+    width: 70%;
+    aspect-ratio: 1 / 1;
+}
+
+.item06 {
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+}
+
+.item07 {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+
+.item07 img {
+    width: 80%;
+    aspect-ratio: 1 / 1;
+}
+
+.item08 {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+}
+
+.item09 {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+.item09 img {
+    width: 70%;
+    aspect-ratio: 1 / 1;
+}
+
+.item10 {
+    grid-column: 3 / 5;
+    grid-row: 5 / 6;
+}
+
+.item11 {
+    grid-column: 3 / 4;
+    grid-row: 6 / 7;
+}
+
+.item11 img {
+    width: 70%;
+    aspect-ratio: 1 / 1;
+}
+
+.item12 {
+    grid-column: 1 / 3;
+    grid-row: 6 / 7;
+}
+
+
+/* :::::::::::::::::::::::::::::::::sec04:::::::::::::::::::::::::::::::::::::::: */
+
+.sec04 {
+    /* background-image: url(../img/sec01/background01.jpg);
+    background-position: center;
+    background-size: cover; */
+
+}
+
+.campaignContant p:nth-child(1) {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.campaignBox {
+    margin: 3rem auto;
+    width: 50%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.campaignBox p:nth-child(1) {
+    margin-left: 0;
+}
+
+.campaignBox p:nth-child(2) {
+    align-self: flex-end;
+}
+
+.campaignBox p:nth-child(3) {
+    align-self: flex-start;
+}
+
+.campaignBox p img {
+    max-width: 500px;
+}
+
+.sec04 h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.googlemap {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.googlemap iframe {
+    width: 80%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.boat {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.boat img {
+    max-width: 200px;
+}
+
+.accessContent p {
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 2rem;
+    margin: 4rem 0 2rem 0;
+}
+
+footer {
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+
+
+
+/* ＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠sns埋め込み埋め込み＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠ */
+.wrapper {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+.snscontainer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 4rem 2rem 2rem 2rem;
+}
+
+.snscontainer .tiktok-embed {
+    margin: 0 auto;
+}
+
+/* ================================================= */
+
+@media (width <=800px) {
+    .snscontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* ＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠夜空＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠ */
+
+
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+  html,body{
+    height: 100%;/*高さを100%にして描画エリアをとる*/
+  }
+  
+  #particles-js{ 
+    position:fixed;/*描画固定*/
+    z-index:-10000;/*描画を一番下に*/
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg, #1b3c55, #051a26, black); 
+  }
+  
+  #wrapper{
+    position: relative;/*描画を#particles-jsよりも上にするためposition:relative;を指定*/
+    z-index: 1;/*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
+    width:100%;
+    height: 100%;
+  }
+
+/* :::::::::::::::::::::::::::::::::::::swiper;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+
+  /* .swiper {
+    width: 30%;
+    aspect-ratio: 16 / 9;
+}
+
+.swiper-slide img{
+    object-fit: cover;
+}
+
+.swiper-slide{
+    overflow: hidden;
+} */
+
+
+
+.swiper-slide img {
+    height: auto;
+   
+   
+    object-fit: contain;
+  
+  }
+
+  .swiper-slide{
+    text-align: center;
+  }

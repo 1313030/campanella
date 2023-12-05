@@ -38,9 +38,8 @@
     opacity: 0.3;
 }
 
-
-@media (width <=800px) {  /* メディアクエリの値はお好みで */
-
+  /* メディアクエリの値はお好みで */
+@media (max-width:800px){
     .toggleButton {
         position: fixed;
         top: 10px;
@@ -58,6 +57,7 @@
         content: "MENU";
         position: absolute;
         bottom: -1rem;
+        left: 2px;
         font-size: 0.725rem;
         font-weight: bold;
         color:var(--drawerColor);

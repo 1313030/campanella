@@ -5,6 +5,10 @@
     src: url(../Kaisei_Tokumin/KaiseiTokumin-Regular.ttf);
 }
 
+html{
+    overflow-x: hidden;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -15,6 +19,7 @@ body {
    color: #F5EBCF; 
     font-family: "myFont";
     overflow-x: hidden;
+    scroll-behavior: smooth;
 
 }
 
